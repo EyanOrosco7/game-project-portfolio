@@ -1,1 +1,1 @@
-Access website here: EyanOrosco7/cube-world-2d-website
+Access website here: https://eyanorosco7.github.io/game-project-portfolio/
