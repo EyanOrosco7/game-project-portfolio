@@ -1,0 +1,79 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+  <body style="background-color: Aquamarine;">
+<div style="background-color: lightblue; padding: 20px; text-align: center;"
+     class="intro-section">
+    <h1>
+      My Game Portfolio
+    </h1>
+
+    <p 
+    class="press-start-2p-regular"
+    style="font-size: 50px; font-weight: bold; color: green;">
+      Cube World 2D
+    </p>
+
+    <p 
+    style="font-size: 20px;">
+      A 2D platformer level created by Eyan Orosco using 
+      <a href="https://gdevelop.io/"> GDevelop.
+      </a>
+    </p>
+
+    </div>
+<div style="border: 5px solid black; margin: auto; width: 640px;">
+    <h2 style="background-color: black; color: white; font-size: 50px;"> These are screenshots of my game:
+    </h2>
+<div>
+  <img
+  id="gameImage"
+  src="image1.png"
+  width="640">
+
+  <h3>
+<button onclick="changeImage()">
+  Next Image
+</button>
+</h3>
+</div>
+
+<div>
+    <h4>
+        Game Trailer:
+    </h4>
+<iframe width="640" 
+height="315" 
+src="https://www.youtube.com/embed/IcQYjtTSepY?si=tzgUkrUG2VnWtPTm" 
+title="YouTube video player" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+referrerpolicy="strict-origin-when-cross-origin" 
+allowfullscreen>
+</iframe>
+<h5 margin: auto>
+<a href="https://gd.games/games/52d2ca2c-c760-4d8a-82c6-44eb979ab14e">
+<button style="font-size: 40px; background-color: lightcoral; margin: auto;">
+    Play My Game Here!
+</button>
+</a>
+</h5>
+</div>
+<a href="pitch.html">
+  <p id="message">
+    </p>
+  <button
+  style="background-color: pink;"
+  id="playButton"
+ onclick="showMessage()"
+ onmouseover="changeText()">
+    View Pitch Document
+  </button>
+</a>
+<script src="script.js"></script>
+    </body>
+</html>
